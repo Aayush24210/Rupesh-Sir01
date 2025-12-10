@@ -115,25 +115,25 @@
 //             System.out.println("koi kam nhi");
 //         }
 //     }
-    class Parent{
-        int x = 10;
-        Parent(){
-            System.out.println("parent Constructer: x ="+x);
-        }
-    class Child extends Parent{
-            Child(){
-                System.out.println("Child suoer.x = "+ super.x);
-            }
-        }  // super refers ot Parents class 
-        void show(){
-            int x = 30;
-            System.out.println("local x ="+x);
-            System.out.println("local x ="+this.x);
-            System.out.println("local x ="+ super.x);
-        }
-        public static void main(String[] args){
-            Child c = new Child();
-            c.show();
-        }
+    // class Parent{
+    //     int x = 10;
+    //     Parent(){
+    //         System.out.println("parent Constructer: x ="+x);
+    //     }
+    // class Child extends Parent{
+    //         Child(){
+    //             System.out.println("Child suoer.x = "+ super.x);
+    //         }
+    //     }  // super refers ot Parents class 
+    //     void show(){
+    //         int x = 30;
+    //         System.out.println("local x ="+x);
+    //         System.out.println("local x ="+this.x);
+    //         System.out.println("local x ="+ super.x);
+    //     }
+    //     public static void main(String[] args){
+    //         Child c = new Child();
+    //         c.show();
+    //     }
 
-    }
+    // }
